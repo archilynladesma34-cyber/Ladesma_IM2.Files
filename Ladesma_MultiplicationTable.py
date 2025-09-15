@@ -10,4 +10,3 @@ for i in range(1, row + 1):
         else:
             print(val, end="\t")
     print()
-
