@@ -10,7 +10,7 @@ while True:
     
     amounts = entered.split("@")
     
-    print(f"{'Dollar ($)':<12}{'Indian Rupee (R)':<20}{'British Pound (£)':<20}{'Chinese Yuan (¥)'}")
+    print(f"{'Dollar ($)':<12}{'Indian Rupee (R)':<20}{'British (Pound)':<20}{'China (Y)'}")
     
     for amt in amounts:
       if amt.isdigit():                      
